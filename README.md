@@ -136,6 +136,7 @@ inteface Connection {
 ## 빌드 및 실행 방법
 GIT 으로부터 소스 코드를 내려 받은 후 아래와 갈이 실행할 수 있다. 
 ```
+C:/> git clone https://github.com/KimSeokWon/quiz-stats.git
 C:/> mvn build  #빌드
 C:/> mvn spring-boot:run #실행
 C:/> mvn test #단위 시험 코드
