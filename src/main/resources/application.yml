@@ -1,0 +1,16 @@
+jwt:
+  secret: seokwon
+data:
+  filename: sample.csv
+  disabled: false
+
+spring:
+  data:
+    mongodb:
+      database: sample
+      username: test
+      password: test123
+      authentication-database: admin
+      repositories:
+        type: auto
+      uri: mongodb://127.0.0.1/sample
